@@ -35,6 +35,8 @@ function handlebarsZipHelper (signature, options) {
      *  - break into functions (e.g. separate the zip function from the Handlebars boilerplate)
      *  - tests are probably a good idea
      *  - write README
+     *    - include note about difference between Python's zip (tuple of tuples)
+     *      and this one (list of dictionaries)
      */
 
     var context = this;
