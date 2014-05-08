@@ -91,7 +91,7 @@ function handlebarsZipHelper (signature, options) {
 
     context[zippedName] = zipped;
 
-    var renderedInnerTemplate = options.fn(this);
+    var renderedInnerTemplate = options.fn(context);
 
     delete context[zippedName];
 
