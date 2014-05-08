@@ -1,8 +1,8 @@
 module.exports.handlebarsZipHelper = handlebarsZipHelper;
 
 function handlebarsZipHelper (signature, options) {
-    /*  Converts the lists given into a single list of dictionaries, like
-     *  Python's `zip` function.
+    /*  Converts the lists given into a single list of dictionaries.
+     *  Inspired by Python's `zip` function.
      *
      *  For instance:
      *
@@ -32,7 +32,10 @@ function handlebarsZipHelper (signature, options) {
     /* TODO:
      *  - assert that commas are between all arguments except "as"
      *  - assert that only [a-z] characters are passed in
-     *  - break into functions (e.g. separate the zip function from the Handlebars boilerplate)
+     *  - break into functions
+     *    - separate the zip function from the Handlebars boilerplate
+     *    - should we support tuples-of-tuples and a destructuring #each?
+     *      it might improve readibility for plurally named lists
      *  - tests are probably a good idea
      *  - write README
      *    - include note about difference between Python's zip (tuple of tuples)

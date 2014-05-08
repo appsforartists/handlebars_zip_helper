@@ -1,7 +1,7 @@
 handlebars_zip_helper
 =====================
 
-Converts the lists given into a single list of dictionaries, like
+Converts the lists given into a single list of dictionaries.  Inspired by
 Python's `zip` function.
 
 For instance:
