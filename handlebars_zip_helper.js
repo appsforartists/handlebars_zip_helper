@@ -32,11 +32,9 @@ function handlebarsZipHelper (signature, options) {
     /* TODO:
      *  - assert that commas are between all arguments except "as"
      *  - assert that only [a-z] characters are passed in
-     *  - package into a module
      *  - break into functions (e.g. separate the zip function from the Handlebars boilerplate)
      *  - tests are probably a good idea
      *  - write README
-     *  - put on Bower
      */
 
     var context = this;
