@@ -1,4 +1,6 @@
-function (signature, options) {
+module.exports.handlebarsZipHelper = handlebarsZipHelper;
+
+function handlebarsZipHelper (signature, options) {
     /*  Converts the lists given into a single list of dictionaries, like
      *  Python's `zip` function.
      *
