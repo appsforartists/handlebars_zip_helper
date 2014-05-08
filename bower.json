@@ -1,0 +1,26 @@
+{
+  "name": "handlebars_zip_helper",
+  "main": "handlebars_zip_helper.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/appsforartists/handlebars_zip_helper",
+  "authors": [
+    "Brenton Simpson <git@appsforartists.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "handlebars",
+    "helper",
+    "zip"
+  ],
+  "license": "LGPL",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "tests"
+  ]
+}
